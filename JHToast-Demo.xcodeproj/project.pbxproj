@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		251C08DA1D7804C4005FB2DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 251C08D91D7804C4005FB2DE /* main.m */; };
+		251C08DD1D7804C4005FB2DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 251C08DC1D7804C4005FB2DE /* AppDelegate.m */; };
+		251C08E01D7804C4005FB2DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 251C08DF1D7804C4005FB2DE /* ViewController.m */; };
+		251C08E31D7804C4005FB2DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 251C08E11D7804C4005FB2DE /* Main.storyboard */; };
+		251C08E51D7804C4005FB2DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 251C08E41D7804C4005FB2DE /* Assets.xcassets */; };
+		251C08E81D7804C4005FB2DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 251C08E61D7804C4005FB2DE /* LaunchScreen.storyboard */; };
+		251C08F31D7804C4005FB2DE /* JHToast_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 251C08F21D7804C4005FB2DE /* JHToast_DemoTests.m */; };
+		251C08FE1D7804C5005FB2DE /* JHToast_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 251C08FD1D7804C5005FB2DE /* JHToast_DemoUITests.m */; };
+		251C090D1D780504005FB2DE /* JHToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 251C090C1D780504005FB2DE /* JHToast.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		251C08EF1D7804C4005FB2DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 251C08CD1D7804C4005FB2DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 251C08D41D7804C4005FB2DE;
+			remoteInfo = "JHToast-Demo";
+		};
+		251C08FA1D7804C4005FB2DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 251C08CD1D7804C4005FB2DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 251C08D41D7804C4005FB2DE;
+			remoteInfo = "JHToast-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		251C08D51D7804C4005FB2DE /* JHToast-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JHToast-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		251C08D91D7804C4005FB2DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		251C08DB1D7804C4005FB2DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		251C08DC1D7804C4005FB2DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		251C08DE1D7804C4005FB2DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		251C08DF1D7804C4005FB2DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		251C08E21D7804C4005FB2DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		251C08E41D7804C4005FB2DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		251C08E71D7804C4005FB2DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		251C08E91D7804C4005FB2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		251C08EE1D7804C4005FB2DE /* JHToast-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JHToast-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		251C08F21D7804C4005FB2DE /* JHToast_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHToast_DemoTests.m; sourceTree = "<group>"; };
+		251C08F41D7804C4005FB2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		251C08F91D7804C4005FB2DE /* JHToast-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JHToast-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		251C08FD1D7804C5005FB2DE /* JHToast_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHToast_DemoUITests.m; sourceTree = "<group>"; };
+		251C08FF1D7804C5005FB2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		251C090B1D780504005FB2DE /* JHToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHToast.h; sourceTree = "<group>"; };
+		251C090C1D780504005FB2DE /* JHToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHToast.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		251C08D21D7804C4005FB2DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		251C08EB1D7804C4005FB2DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		251C08F61D7804C4005FB2DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		251C08CC1D7804C4005FB2DE = {
+			isa = PBXGroup;
+			children = (
+				251C090B1D780504005FB2DE /* JHToast.h */,
+				251C090C1D780504005FB2DE /* JHToast.m */,
+				251C08D71D7804C4005FB2DE /* JHToast-Demo */,
+				251C08F11D7804C4005FB2DE /* JHToast-DemoTests */,
+				251C08FC1D7804C5005FB2DE /* JHToast-DemoUITests */,
+				251C08D61D7804C4005FB2DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		251C08D61D7804C4005FB2DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				251C08D51D7804C4005FB2DE /* JHToast-Demo.app */,
+				251C08EE1D7804C4005FB2DE /* JHToast-DemoTests.xctest */,
+				251C08F91D7804C4005FB2DE /* JHToast-DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		251C08D71D7804C4005FB2DE /* JHToast-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				251C08DB1D7804C4005FB2DE /* AppDelegate.h */,
+				251C08DC1D7804C4005FB2DE /* AppDelegate.m */,
+				251C08DE1D7804C4005FB2DE /* ViewController.h */,
+				251C08DF1D7804C4005FB2DE /* ViewController.m */,
+				251C08E11D7804C4005FB2DE /* Main.storyboard */,
+				251C08E41D7804C4005FB2DE /* Assets.xcassets */,
+				251C08E61D7804C4005FB2DE /* LaunchScreen.storyboard */,
+				251C08E91D7804C4005FB2DE /* Info.plist */,
+				251C08D81D7804C4005FB2DE /* Supporting Files */,
+			);
+			path = "JHToast-Demo";
+			sourceTree = "<group>";
+		};
+		251C08D81D7804C4005FB2DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				251C08D91D7804C4005FB2DE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		251C08F11D7804C4005FB2DE /* JHToast-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				251C08F21D7804C4005FB2DE /* JHToast_DemoTests.m */,
+				251C08F41D7804C4005FB2DE /* Info.plist */,
+			);
+			path = "JHToast-DemoTests";
+			sourceTree = "<group>";
+		};
+		251C08FC1D7804C5005FB2DE /* JHToast-DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				251C08FD1D7804C5005FB2DE /* JHToast_DemoUITests.m */,
+				251C08FF1D7804C5005FB2DE /* Info.plist */,
+			);
+			path = "JHToast-DemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		251C08D41D7804C4005FB2DE /* JHToast-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 251C09021D7804C5005FB2DE /* Build configuration list for PBXNativeTarget "JHToast-Demo" */;
+			buildPhases = (
+				251C08D11D7804C4005FB2DE /* Sources */,
+				251C08D21D7804C4005FB2DE /* Frameworks */,
+				251C08D31D7804C4005FB2DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JHToast-Demo";
+			productName = "JHToast-Demo";
+			productReference = 251C08D51D7804C4005FB2DE /* JHToast-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		251C08ED1D7804C4005FB2DE /* JHToast-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 251C09051D7804C5005FB2DE /* Build configuration list for PBXNativeTarget "JHToast-DemoTests" */;
+			buildPhases = (
+				251C08EA1D7804C4005FB2DE /* Sources */,
+				251C08EB1D7804C4005FB2DE /* Frameworks */,
+				251C08EC1D7804C4005FB2DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				251C08F01D7804C4005FB2DE /* PBXTargetDependency */,
+			);
+			name = "JHToast-DemoTests";
+			productName = "JHToast-DemoTests";
+			productReference = 251C08EE1D7804C4005FB2DE /* JHToast-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		251C08F81D7804C4005FB2DE /* JHToast-DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 251C09081D7804C5005FB2DE /* Build configuration list for PBXNativeTarget "JHToast-DemoUITests" */;
+			buildPhases = (
+				251C08F51D7804C4005FB2DE /* Sources */,
+				251C08F61D7804C4005FB2DE /* Frameworks */,
+				251C08F71D7804C4005FB2DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				251C08FB1D7804C4005FB2DE /* PBXTargetDependency */,
+			);
+			name = "JHToast-DemoUITests";
+			productName = "JHToast-DemoUITests";
+			productReference = 251C08F91D7804C4005FB2DE /* JHToast-DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		251C08CD1D7804C4005FB2DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MrChen;
+				TargetAttributes = {
+					251C08D41D7804C4005FB2DE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					251C08ED1D7804C4005FB2DE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 251C08D41D7804C4005FB2DE;
+					};
+					251C08F81D7804C4005FB2DE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 251C08D41D7804C4005FB2DE;
+					};
+				};
+			};
+			buildConfigurationList = 251C08D01D7804C4005FB2DE /* Build configuration list for PBXProject "JHToast-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 251C08CC1D7804C4005FB2DE;
+			productRefGroup = 251C08D61D7804C4005FB2DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				251C08D41D7804C4005FB2DE /* JHToast-Demo */,
+				251C08ED1D7804C4005FB2DE /* JHToast-DemoTests */,
+				251C08F81D7804C4005FB2DE /* JHToast-DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		251C08D31D7804C4005FB2DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				251C08E81D7804C4005FB2DE /* LaunchScreen.storyboard in Resources */,
+				251C08E51D7804C4005FB2DE /* Assets.xcassets in Resources */,
+				251C08E31D7804C4005FB2DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		251C08EC1D7804C4005FB2DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		251C08F71D7804C4005FB2DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		251C08D11D7804C4005FB2DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				251C08E01D7804C4005FB2DE /* ViewController.m in Sources */,
+				251C090D1D780504005FB2DE /* JHToast.m in Sources */,
+				251C08DD1D7804C4005FB2DE /* AppDelegate.m in Sources */,
+				251C08DA1D7804C4005FB2DE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		251C08EA1D7804C4005FB2DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				251C08F31D7804C4005FB2DE /* JHToast_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		251C08F51D7804C4005FB2DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				251C08FE1D7804C5005FB2DE /* JHToast_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		251C08F01D7804C4005FB2DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 251C08D41D7804C4005FB2DE /* JHToast-Demo */;
+			targetProxy = 251C08EF1D7804C4005FB2DE /* PBXContainerItemProxy */;
+		};
+		251C08FB1D7804C4005FB2DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 251C08D41D7804C4005FB2DE /* JHToast-Demo */;
+			targetProxy = 251C08FA1D7804C4005FB2DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		251C08E11D7804C4005FB2DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				251C08E21D7804C4005FB2DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		251C08E61D7804C4005FB2DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				251C08E71D7804C4005FB2DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		251C09001D7804C5005FB2DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		251C09011D7804C5005FB2DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		251C09031D7804C5005FB2DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JHToast-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jalaSmart.JHToast-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		251C09041D7804C5005FB2DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JHToast-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jalaSmart.JHToast-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		251C09061D7804C5005FB2DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "JHToast-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jalaSmart.JHToast-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHToast-Demo.app/JHToast-Demo";
+			};
+			name = Debug;
+		};
+		251C09071D7804C5005FB2DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "JHToast-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jalaSmart.JHToast-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHToast-Demo.app/JHToast-Demo";
+			};
+			name = Release;
+		};
+		251C09091D7804C5005FB2DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "JHToast-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jalaSmart.JHToast-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "JHToast-Demo";
+			};
+			name = Debug;
+		};
+		251C090A1D7804C5005FB2DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "JHToast-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jalaSmart.JHToast-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "JHToast-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		251C08D01D7804C4005FB2DE /* Build configuration list for PBXProject "JHToast-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				251C09001D7804C5005FB2DE /* Debug */,
+				251C09011D7804C5005FB2DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		251C09021D7804C5005FB2DE /* Build configuration list for PBXNativeTarget "JHToast-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				251C09031D7804C5005FB2DE /* Debug */,
+				251C09041D7804C5005FB2DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		251C09051D7804C5005FB2DE /* Build configuration list for PBXNativeTarget "JHToast-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				251C09061D7804C5005FB2DE /* Debug */,
+				251C09071D7804C5005FB2DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		251C09081D7804C5005FB2DE /* Build configuration list for PBXNativeTarget "JHToast-DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				251C09091D7804C5005FB2DE /* Debug */,
+				251C090A1D7804C5005FB2DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 251C08CD1D7804C4005FB2DE /* Project object */;
+}
