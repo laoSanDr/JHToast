@@ -5,6 +5,7 @@
 
 ##1.普通调用
 ```
+
  /*
     您只需要调用一行代码,既可完成提示信息显示
     */
@@ -23,9 +24,11 @@
     下方显示
     */
     [JHToast showBottomWithText:@"您要显示的提示信息"];
+
 ```
 ##2.自定义Toast停留时间+到屏幕上端/下端距离(见如下方法)
 ```
+
 #pragma mark-中间显示
 
 /**
@@ -89,4 +92,5 @@
 *  @param duration     停留时间
 */
 + (void)showBottomWithText:(NSString *)text bottomOffset:(CGFloat)bottomOffset duration:(CGFloat)duration;
+
 ```
