@@ -5,30 +5,32 @@
 
 ##1.普通调用
 
- ``` /*
-     您只需要调用一行代码,既可完成提示信息显示
-     */
-    
-    /*
-     中间显示
-     */
-    [JHToast showCenterWithText:@"您要显示的提示信息"];
-    
-    /*
-     上方显示
-     */
-    [JHToast showTopWithText:@"您要显示的提示信息"];
-    
-    /*
-     下方显示
-     */
-    [JHToast showBottomWithText:@"您要显示的提示信息"];
+ ```
+ /*
+ 您只需要调用一行代码,既可完成提示信息显示
+ */
+ 
+/*
+ 中间显示
+ */
+ [JHToast showCenterWithText:@"您要显示的提示信息"];
+ 
+ /*
+ 上方显示
+ */
+ [JHToast showTopWithText:@"您要显示的提示信息"];
+ 
+ /*
+ 下方显示
+ */
+ [JHToast showBottomWithText:@"您要显示的提示信息"];
 
 ```
 
 ##2.自定义Toast停留时间+到屏幕上端/下端距离(见如下方法)
 
-```#pragma mark-中间显示
+```
+#pragma mark-中间显示
 
 /**
 *  中间显示+自定义停留时间
